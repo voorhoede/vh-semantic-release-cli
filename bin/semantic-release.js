@@ -3,5 +3,4 @@ try {
   require('../src')(process.argv)
 } catch (err) {
     console.log(Error(err))
-  }
 }

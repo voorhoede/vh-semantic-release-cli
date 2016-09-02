@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "name": "vh-semantic-release-cli",
   "description": "setup automated semver compliant package publishing",
   "author": "Christoph Witzko <npm@christophwitzko.com> (http://christophwitzko.com)",

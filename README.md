@@ -1,7 +1,7 @@
 # vh-semantic-release-cli
-[![Dependency Status](https://david-dm.org/voorhoede/vh-semantic-release/master.svg)](https://david-dm.org/semantic-release/cli/master) | [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+[![Dependency Status](https://david-dm.org/voorhoede/vh-semantic-release-cli/master.svg)](https://david-dm.org/voorhoede/vh-semantic-release-cli/master) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
-**This is a fork from [semantic-release](https://github.com/semantic-release/cli)**
+**This is a fork from [semantic-release](https://github.com/semantic-release/cli).**
 
 
 ## Install
