@@ -1,0 +1,15 @@
+# common
+coverage
+node_modules
+*.log
+.DS_Store
+.nyc_output
+.test
+.tmp
+
+# source/config
+src
+*.yml
+.gitignore
+.editorconfig
+.npmrc
