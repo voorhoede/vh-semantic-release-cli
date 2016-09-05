@@ -1,5 +1,4 @@
 {
-  "version": "0.2.1",
   "name": "vh-semantic-release-cli",
   "description": "setup automated semver compliant package publishing",
   "author": "Christoph Witzko <npm@christophwitzko.com> (http://christophwitzko.com)",
@@ -38,7 +37,7 @@
     "cz-conventional-changelog": "1.2.0",
     "mkdirp": "0.5.1",
     "rimraf": "2.5.4",
-    "semantic-release": "4.3.5",
+    "semantic-release": "^4.3.5",
     "standard": "8.0.0"
   },
   "engines": {
