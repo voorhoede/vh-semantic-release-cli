@@ -1,0 +1,22 @@
+sudo: false
+language: node_js
+cache:
+  directories:
+  - node_modules
+notifications:
+  email: false
+node_js:
+- '6'
+before_install:
+  - apt-get install libgnome-keyring-dev
+before_script:
+- npm prune
+after_success:
+- npm run semantic-release
+branches:
+  only:
+  - master
+  - /^greenkeeper-.*$/
+env:
+  global:
+    secure: xIAuxMSpgvKc+ECpQoYmSy/JI8gR/t4Pxp8g8xUCfcf7xiyzJdkftcH68BuDOpF7rKN1ObOsk60ice5rawkis0FIfm9gF/oeyuBzqVqsD9WQbgTlIUC+AYujw75aRKwFYD3OlS28qEiuncCWkxnL1voS2woBJsJRUfIDWDk8oBEB1TfzJA7/1CClLdn9/mXdfROZouoisxVUWtdHCAWM7Ao4Tc5LmETc27zhC4pO1iZnIhyXpLgx+X05MAgeFTfg9GGLQVtrrtqegyP28FXHJjGtP4jX/RJVhlT7iAv+AwCWo0Ydn/fAAPrXv5edzUSgg0zUggFsmKhZtzmd4jitQ6yEJX+HFZnyIH0zg6qQ0aZUOEc5Tqck0AqWkquhvMr5pgx+KmcgZTjx/s3ah+rCHn6fMuv6V5Limtq9l6+pUpgazsNWjyO3s24NPckUhEgxDcLbwKbM/0/Ti1aKGyF2W1hIwwB3DPAHWP8v/4bMyex8jvLeHvdG83CUepgyMzG728Q/qcwXTmtXJu/pGS0VCJQUt2nYuivH57CjdJnEdmQBo+Mr1Tg/wPMQsxs8lFbEdn45nBDyYvra5DrlbqEDZzpCmxnCECgyX+Ve9E1061flaTFhZfGWMCs/QEEIxbFPfHcnVHcQgmEyv77INyFdxjPv4p3XueFnu/1pSCXVTIs=
